@@ -6,10 +6,6 @@ Path tracing project using [three-mesh-bvh](https://github.com/gkjohnson/three-m
 
 # Examples
 
-**Beauty Demos**
-
-[Physically Based Materials](https://cyamahat.github.io/three-gpu-pathtracer-examples/examples/bundle/index.html)
-
 **Optical Prisms**
 
 [Reflection and Refraction](https://cyamahat.github.io/three-gpu-pathtracer-examples/examples/bundle/optical_prisms.html)
