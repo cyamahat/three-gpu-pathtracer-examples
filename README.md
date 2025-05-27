@@ -6,13 +6,8 @@ Path tracing project using [three-mesh-bvh](https://github.com/gkjohnson/three-m
 
 # Examples
 
-
-[Basic glTF Setup Example](https://cyamahat.github.io/three-gpu-pathtracer-examples/examples/bundle/basic.html)
-
-[Basic Primitive Geometry Example](https://cyamahat.github.io/three-gpu-pathtracer-examples/examples/bundle/primitives.html)
-
 **Beauty Demos**
 
-[Physically Based Materials](https://cyamahat.github.io/three-gpu-pathtracer-examples/example/bundle/index.html)
+[Physically Based Materials](https://cyamahat.github.io/three-gpu-pathtracer-examples/examples/bundle/index.html)
 
 
