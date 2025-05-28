@@ -1,6 +1,6 @@
 # PBR of Optical Elements with *three-gpu-pathtracer*
 
-![twitter](https://flat.badgen.net/badge/twitter/@cyamahat/?icon&label)](https://twitter.com/cyamahat)
+[![twitter](https://flat.badgen.net/badge/twitter/@cyamahat/?icon&label)](https://twitter.com/cyamahat)
 
 
 The *[three-gpu-pathtracer](https://github.com/gkjohnson/three-gpu-pathtracer)* library
