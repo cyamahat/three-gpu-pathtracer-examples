@@ -159,7 +159,7 @@ var _loaderElementJs = require("./utils/LoaderElement.js");
 var _parallelMeshBVHWorkerJs = require("three-mesh-bvh/src/workers/ParallelMeshBVHWorker.js");
 const MODEL_LIST = {
     "Panoramic Telescope": {
-        url: "./models/panoramic_telescope.glb",
+        url: "../models/panoramic_telescope.glb",
         credit: "Panoramic Telescope (Rundblickfernrohr)",
         opacityToTransmission: true,
         camera_X: 1.909,
@@ -194,7 +194,7 @@ const MODEL_LIST = {
         }
     },
     "Dove Prism": {
-        url: "./models/octopus_vs_dove_prism.glb",
+        url: "../models/octopus_vs_dove_prism.glb",
         credit: "Dove prism + Octopus (https://skfb.ly/oqIRG)",
         opacityToTransmission: true,
         camera_X: -0.1,
@@ -229,7 +229,7 @@ const MODEL_LIST = {
         }
     },
     "Right-Angle Prism": {
-        url: "./models/octopus_vs_right-angle_prism.glb",
+        url: "../models/octopus_vs_right-angle_prism.glb",
         credit: "Right-angle prism + Octopus (https://skfb.ly/oqIRG)",
         opacityToTransmission: true,
         camera_X: 0,
@@ -264,7 +264,7 @@ const MODEL_LIST = {
         }
     },
     "Amici Roof Prism": {
-        url: "./models/octopus_vs_amici_prism.glb",
+        url: "../models/octopus_vs_amici_prism.glb",
         credit: "Amici roof prism + Octopus (https://skfb.ly/oqIRG)",
         opacityToTransmission: true,
         camera_X: 0,
@@ -300,8 +300,8 @@ const MODEL_LIST = {
     }
 };
 const envMaps = {
-    "Aristea Wreck Puresky": "./models/env/aristea_wreck_puresky_2k.hdr",
-    "Peppermint Powerplant": "./models/env/peppermint_powerplant_2k.hdr"
+    "Aristea Wreck Puresky": "../models/env/aristea_wreck_puresky_2k.hdr",
+    "Peppermint Powerplant": "../models/env/peppermint_powerplant_2k.hdr"
 };
 const models = MODEL_LIST;
 const urlParams = new URLSearchParams(window.location.search);
