@@ -13,7 +13,7 @@ physically based rendering (PBR) on the GPU. Key features include support for th
 This GitHub repository demonstrates *three-gpu-pathtracer*'s ability to simulate realistic PBR for optical parts.
 The demonstration focuses on three standard optical prisms: the **Dove prism**, the **right-angle prism**, and the **Amici roof prism**. When combined, these prisms form the core optical system of a **panoramic telescope** (or 𝕽𝖚𝖓𝖉𝖇𝖑𝖎𝖈𝖐𝖋𝖊𝖗𝖓𝖗𝖔𝖍𝖗 in German).
 
-### Examples: PBR with Optical Prisms
+## Examples: PBR with Optical Prisms
 
 [Panoramic Telescope](https://cyamahat.github.io/three-gpu-pathtracer-optics/examples/bundle/index.html)
 
@@ -23,7 +23,10 @@ The demonstration focuses on three standard optical prisms: the **Dove prism**, 
 
 [Amici Roof Prism](https://cyamahat.github.io/three-gpu-pathtracer-optics/examples/bundle/index.html#Amici%20Roof%20Prism)
 
+<br/>
+
 ---
+
 ### PBR Illustrations
 
 ![Dove Prism](./illustrations/PBR_Dove_prism_rotation.png)
@@ -39,3 +42,8 @@ The demonstration focuses on three standard optical prisms: the **Dove prism**, 
 ![Panoramic Telescope](./illustrations/PBR_panoramic_telescope.png)
 ***Panoramic Telescope**. When the right-angle prism undergoes azimuth rotation by an angle theta (θ),*
 <br/>*rotating the Dove prism by half theta (θ/2) ensures the output image remains horizontal.*
+
+<br/>
+## Resources
+
+[three-gpu-pathracer](https://github.com/gkjohnson/three-gpu-pathtracer)
