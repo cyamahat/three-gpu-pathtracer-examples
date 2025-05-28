@@ -21,7 +21,8 @@ The demonstration focuses on three standard optical prisms: the **Dove prism**, 
 ### PBR Illustrations
 
 ![Dove Prism](./illustrations/PBR_Dove_prism_rotation.png)
-***PBR of the Dove prism**. The original GLB file is animated (rotation of the Dove prism). 3D model: <a href="https://skfb.ly/oqIRG" target="_blank">Cartoon octopus takes a tea bath</a>.* 
+***PBR of the Dove prism**. The original GLB file is animated (rotation of the Dove prism).*
+<br/>*3D model: [Cartoon octopus takes a tea bath](https://skfb.ly/oqIRG).* 
 <br/><br/>
 ![Amici Roof vs. Right-Angle Prism](./illustrations/PBR_right-angle_vs_Amici_roof_prism.png)
 <br/>
