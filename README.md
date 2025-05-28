@@ -45,7 +45,9 @@ The demonstration focuses on three standard optical prisms: the **Dove prism**, 
 
 ## Resources
 
-[three-gpu-pathracer](https://github.com/gkjohnson/three-gpu-pathtracer) • GitHub repository by Garrett Johnson
+[three-gpu-pathracer](https://github.com/gkjohnson/three-gpu-pathtracer) • GitHub repository by Garrett Johnson, providing a GPU-accelerated path tracing library for Three.js to create high-quality, realistic 3D renderings.
+
+🎬 [Panoramic telescope](https://www.youtube.com/embed/fu5VCT6Hh1A?si=tPNLhcWnDLYaX0w8) • A 3-minute YouTube video providing an overview of the history and working principle of the panoramic telescope (Rundblickfernrohr).
 
 <br/>
 
