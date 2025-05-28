@@ -16,3 +16,8 @@ The demonstration focuses on three standard optical prisms: the **Dove prism**, 
 [Right-Angle Prism](https://cyamahat.github.io/three-gpu-pathtracer-optics/examples/bundle/optical_prisms.html#Right-Angle%20Prism)
 
 [Amici Roof Prism](https://cyamahat.github.io/three-gpu-pathtracer-optics/examples/bundle/optical_prisms.html#Amici%20Roof%20Prism)
+
+---
+
+![Dove Prism](https://github.com/cyamahat/three-gpu-pathtracer-optics/blob/main/illustrations/PBR_Dove_prism_rotation.png)
+*PBR of the Dove prism. The original GLB file is animated (rotation of the Dove prism). 3D model: [Cartoon octopus takes a tea bath](https://skfb.ly/oqIRG)* 
