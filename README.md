@@ -1,4 +1,4 @@
-## *three-gpu-pathtracer* and PBR of Optical Elements
+# PBR of Optical Elements with *three-gpu-pathtracer*
 
 The *[three-gpu-pathtracer](https://github.com/gkjohnson/three-gpu-pathtracer)* library
 leverages [three-mesh-bvh](https://github.com/gkjohnson/three-mesh-bvh) and WebGL 2 to deliver high-quality, 
