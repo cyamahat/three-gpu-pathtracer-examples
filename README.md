@@ -18,6 +18,12 @@ The demonstration focuses on three standard optical prisms: the **Dove prism**, 
 [Amici Roof Prism](https://cyamahat.github.io/three-gpu-pathtracer-optics/examples/bundle/optical_prisms.html#Amici%20Roof%20Prism)
 
 ---
+### PBR Illustrations
 
-![Dove Prism](https://github.com/cyamahat/three-gpu-pathtracer-optics/blob/main/illustrations/PBR_Dove_prism_rotation.png)
-*PBR of the Dove prism. The original GLB file is animated (rotation of the Dove prism). 3D model: [Cartoon octopus takes a tea bath](https://skfb.ly/oqIRG)* 
+![Dove Prism](./illustrations/PBR_Dove_prism_rotation.png)
+***PBR of the Dove prism**. The original GLB file is animated (rotation of the Dove prism). 3D model: [Cartoon octopus takes a tea bath](https://skfb.ly/oqIRG)* 
+<br/><br/>
+![Amici Roof vs. Right-Angle Prism](./illustrations/PBR_right-angle_vs_Amici_roof_prism.png)
+<br/>
+***Amici Roof Prism vs. Right-Angle Prism**. The image output from a prism is either right-handed or left-handed*
+<br/>*(i.e., mirrored), determined by the number of internal reflections within the prism.*
