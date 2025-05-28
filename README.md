@@ -23,8 +23,6 @@ The demonstration focuses on three standard optical prisms: the **Dove prism**, 
 
 [Amici Roof Prism](https://cyamahat.github.io/three-gpu-pathtracer-optics/examples/bundle/index.html#Amici%20Roof%20Prism)
 
-<br/>
-
 ---
 
 ### PBR Illustrations
@@ -43,7 +41,12 @@ The demonstration focuses on three standard optical prisms: the **Dove prism**, 
 ***Panoramic Telescope**. When the right-angle prism undergoes azimuth rotation by an angle theta (θ),*
 <br/>*rotating the Dove prism by half theta (θ/2) ensures the output image remains horizontal.*
 
-<br/>
+---
+
 ## Resources
 
-[three-gpu-pathracer](https://github.com/gkjohnson/three-gpu-pathtracer)
+[three-gpu-pathracer](https://github.com/gkjohnson/three-gpu-pathtracer): GitHub repository by Garrett Johnson
+
+<br/>
+
+
