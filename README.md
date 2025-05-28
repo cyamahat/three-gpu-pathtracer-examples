@@ -31,5 +31,5 @@ The demonstration focuses on three standard optical prisms: the **Dove prism**, 
 <br/>
 <br/>
 ![Panoramic Telescope](./illustrations/PBR_panoramic_telescope.png)
-***Panoramic Telescope**. When the right-angle prism undergoes azimuth rotation by and angle theta (θ),*
+***Panoramic Telescope**. When the right-angle prism undergoes azimuth rotation by an angle theta (θ),*
 <br/>*rotating the Dove prism by half theta (θ/2) ensures the output image remains horizontal.*
