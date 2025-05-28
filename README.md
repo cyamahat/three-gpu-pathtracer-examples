@@ -21,17 +21,17 @@ The demonstration focuses on three standard optical prisms: the **Dove prism**, 
 
 ### PBR Illustrations
 
-![Dove Prism](./illustrations/PBR_Dove_prism_rotation.png)
+[![Dove Prism](./illustrations/PBR_Dove_prism_rotation.png)](https://cyamahat.github.io/three-gpu-pathtracer-optics/examples/bundle/index.html#Dove%20Prism)
 ***PBR of the Dove prism***. *The original GLB file is animated (rotation of the Dove prism).*
 <br/>*3D model: [Cartoon octopus takes a tea bath](https://skfb.ly/oqIRG).* 
 <br/>
 <br/>
-![Amici Roof vs. Right-Angle Prism](./illustrations/PBR_right-angle_vs_Amici_roof_prism.png)
+[![Amici Roof vs. Right-Angle Prism](./illustrations/PBR_right-angle_vs_Amici_roof_prism.png)](https://cyamahat.github.io/three-gpu-pathtracer-optics/examples/bundle/index.html#Amici%20Roof%20Prism)
 <br/>***Amici Roof Prism vs. Right-Angle Prism***. *The image output from a prism is either right-handed or left-handed*
 <br/>*(i.e., mirrored), determined by the number of internal reflections within the prism.*
 <br/>
 <br/>
-![Panoramic Telescope](./illustrations/PBR_panoramic_telescope.png)
+[![Panoramic Telescope](./illustrations/PBR_panoramic_telescope.png)](https://cyamahat.github.io/three-gpu-pathtracer-optics/examples/bundle/index.html)
 ***Panoramic Telescope***. *When the right-angle prism undergoes azimuth rotation by an angle theta (θ),*
 <br/>*rotating the Dove prism by half theta (θ/2) ensures the output image remains horizontal.*
 
