@@ -9,13 +9,13 @@ The demonstration focuses on three standard optical prisms: the **Dove prism**, 
 
 ## Examples: PBR with Optical Prisms
 
-[Panoramic Telescope](https://cyamahat.github.io/three-gpu-pathtracer-optics/examples/bundle/index.html)
-
 [Dove Prism](https://cyamahat.github.io/three-gpu-pathtracer-optics/examples/bundle/index.html#Dove%20Prism)
 
 [Right-Angle Prism](https://cyamahat.github.io/three-gpu-pathtracer-optics/examples/bundle/index.html#Right-Angle%20Prism)
 
 [Amici Roof Prism](https://cyamahat.github.io/three-gpu-pathtracer-optics/examples/bundle/index.html#Amici%20Roof%20Prism)
+
+[Panoramic Telescope](https://cyamahat.github.io/three-gpu-pathtracer-optics/examples/bundle/index.html)
 
 ---
 
