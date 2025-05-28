@@ -1,5 +1,8 @@
 # PBR of Optical Elements with *three-gpu-pathtracer*
 
+![twitter](https://flat.badgen.net/badge/twitter/@cyamahat/?icon&label)](https://twitter.com/cyamahat)
+
+
 The *[three-gpu-pathtracer](https://github.com/gkjohnson/three-gpu-pathtracer)* library
 leverages [three-mesh-bvh](https://github.com/gkjohnson/three-mesh-bvh) and WebGL 2 to deliver high-quality, 
 physically based rendering (PBR) on the GPU. Key features include support for the GGX surface model, materials information, textures, normal maps, emission, environment maps, tiled rendering. As a result, path tracing also supports reflection and refraction of optical materials!
