@@ -1,11 +1,5 @@
 # PBR of Optical Elements with *three-gpu-pathtracer*
 
-[![YouTube](https://img.shields.io/badge/@cyamahat-FF0000?logo=youtube&style=flat)](https://www.youtube.com/@cyamahat)
-[![LinkedIn](https://custom-icon-badges.demolab.com/badge/yamahata-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/yamahata/)
-[![X](https://img.shields.io/badge/@CYamahata-%23000000.svg?logo=X&logoColor=white)](https://x.com/CYamahata)
-[![Bluesky](https://img.shields.io/badge/@cyamahata-0285FF?logo=bluesky&logoColor=fff)](https://bsky.app/profile/cyamahata.bsky.social)
-
-
 The *[three-gpu-pathtracer](https://github.com/gkjohnson/three-gpu-pathtracer)* library
 leverages [three-mesh-bvh](https://github.com/gkjohnson/three-mesh-bvh) and WebGL 2 to deliver high-quality, 
 physically based rendering (PBR) on the GPU. Key features include support for the GGX surface model, materials information, textures, normal maps, emission, environment maps, tiled rendering. As a result, path tracing also supports reflection and refraction of optical materials!
@@ -50,5 +44,11 @@ The demonstration focuses on three standard optical prisms: the **Dove prism**, 
 🎬 [Panoramic telescope](https://youtu.be/fu5VCT6Hh1A?si=yMeeUyAWUAuUQ-1i) • A 3-minute YouTube video providing an overview of the history and working principle of the panoramic telescope (Rundblickfernrohr).
 
 <br/>
+
+[![YouTube](https://img.shields.io/badge/@cyamahat-FF0000?logo=youtube&style=flat)](https://www.youtube.com/@cyamahat)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/yamahata-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/yamahata/)
+[![X](https://img.shields.io/badge/@CYamahata-%23000000.svg?logo=X&logoColor=white)](https://x.com/CYamahata)
+[![Bluesky](https://img.shields.io/badge/@cyamahata-0285FF?logo=bluesky&logoColor=fff)](https://bsky.app/profile/cyamahata.bsky.social)
+
 
 
