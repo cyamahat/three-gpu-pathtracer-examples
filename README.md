@@ -1,18 +1,13 @@
-## three-gpu-pathtracer (examples)
+## *three-gpu-pathtracer* and PBR of Optical Elements
 
-The path tracing library *[three-gpu-pathtracer](https://github.com/gkjohnson/three-gpu-pathtracer)* 
+The *[three-gpu-pathtracer](https://github.com/gkjohnson/three-gpu-pathtracer)* library
 leverages [three-mesh-bvh](https://github.com/gkjohnson/three-mesh-bvh) and WebGL 2 to deliver high-quality, 
-physically based rendering (PBR) using local computation on the GPU. 
+physically based rendering (PBR) on the GPU. Key features include support for the GGX surface model, materials information, textures, normal maps, emission, environment maps, tiled rendering. As a result, path tracing also supports reflection and refraction of optical materials!
 
-The author of this library highlights several key features, including support for the GGX surface model, materials information, 
-textures, normal maps, emission, environment maps, tiled rendering. As a result, path tracing also supports reflection and 
-refraction of optical materials!
+This Github project demonstrates *three-gpu-pathtracer*'s ability to simulate realistic PBR for optical parts.
+The demonstration focuses on three standard optical prisms: the **Dove prism**, the **right-angle prism**, and the **Amici roof prism**. When combined, these prisms form the core optical system of a **panoramic telescope** (or *Rundblickfernrohr* in German).
 
-This Github project showcases *three-gpu-pathtracer*'s ability to simulate realistic PBR for optical parts.
-The demonstration focuses on three standard optical prisms: the **Dove prism**, the **right-angle prism**, and the **Amici roof prism**.
-When combined, these prisms form the core optical system of a **panoramic telescope** (or *Rundblickfernrohr* in German).
-
-### Example: Optical Prisms
+### Examples: PBR with Optical Prisms
 
 [Panoramic Telescope](https://cyamahat.github.io/three-gpu-pathtracer-examples/examples/bundle/optical_prisms.html)
 
