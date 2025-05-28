@@ -45,7 +45,7 @@ The demonstration focuses on three standard optical prisms: the **Dove prism**, 
 
 ## Resources
 
-[three-gpu-pathracer](https://github.com/gkjohnson/three-gpu-pathtracer): GitHub repository by Garrett Johnson
+[three-gpu-pathracer](https://github.com/gkjohnson/three-gpu-pathtracer) • GitHub repository by Garrett Johnson
 
 <br/>
 
