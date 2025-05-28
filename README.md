@@ -2,6 +2,7 @@
 
 [![Twitter](https://flat.badgen.net/badge/twitter/@CYamahata/?icon&label)](https://x.com/CYamahata)
 [![YouTube](https://img.shields.io/badge/@cyamahat-FF0000?logo=youtube&style=flat)](https://www.youtube.com/@cyamahat)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/yamahata-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/yamahata/)
 
 
 The *[three-gpu-pathtracer](https://github.com/gkjohnson/three-gpu-pathtracer)* library
