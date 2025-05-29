@@ -48,9 +48,9 @@ The demonstration focuses on three standard optical prisms: the **Dove prism**, 
 <br/>
 
 [![YouTube](https://img.shields.io/badge/@cyamahat-FF0000?logo=youtube&style=flat)](https://www.youtube.com/@cyamahat)
+[![Sketchfab](https://img.shields.io/badge/-cyamahat-2CAAD9?logo=sketchfab&logoColor=fff&style=flat)](https://sketchfab.com/cyamahat)
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/yamahata-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/yamahata/)
 [![X](https://img.shields.io/badge/@CYamahata-%23000000.svg?logo=X&logoColor=white)](https://x.com/CYamahata)
 [![Bluesky](https://img.shields.io/badge/@cyamahata-0285FF?logo=bluesky&logoColor=fff)](https://bsky.app/profile/cyamahata.bsky.social)
-
 
 
