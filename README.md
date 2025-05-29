@@ -41,6 +41,8 @@ The demonstration focuses on three standard optical prisms: the **Dove prism**, 
 
 [three-gpu-pathracer](https://github.com/gkjohnson/three-gpu-pathtracer) • GitHub repository by Garrett Johnson, providing a GPU-accelerated path tracing library for Three.js to create high-quality, realistic 3D renderings.
 
+[Three.js](https://threejs.org) • JavaScript 3D Library use to display animated 3D computer graphics in modern web browsers using [WebGL](https://en.wikipedia.org/wiki/WebGL). 
+
 🎬 [Panoramic telescope](https://youtu.be/fu5VCT6Hh1A?si=yMeeUyAWUAuUQ-1i) • A 3-minute YouTube video providing an overview of the history and working principle of the panoramic telescope (Rundblickfernrohr).
 
 <br/>
