@@ -244,6 +244,64 @@ const MODEL_LIST = {
 
 		}
 	},
+	'K-Mirror': {
+		url: './models/K-Mirror.glb',
+		
+		credit: 'K-Mirror',
+		opacityToTransmission: true,
+		camera_X: 3,
+		camera_Y: 0.25,
+		camera_Z: 0,
+		camera_thetaX: 90,
+		camera_thetaY: 90,
+		camera_thetaZ: - 90,
+		scaleFactor: 0.01,
+		frames: 360,
+		postProcess( model ) {
+
+			const toRemove = [];
+			model.updateMatrixWorld();
+
+			model.traverse( c => {
+
+				if ( c.material ) {
+
+					c.material.emissiveIntensity = 0;
+					if ( c.material instanceof THREE.MeshPhysicalMaterial ) {
+
+						const material = c.material;
+						material.metalness = 1;
+						if ( material.transmission === 1.0 ) {
+
+							material.roughness = 0.0;
+							material.metalness = 0.0;
+							if ( c.name.includes( '29' ) ) {
+
+								material.ior = 1.52;
+								material.color.set( 0xffffff );
+
+							} else {
+
+								material.ior = 1.52;
+
+							}
+
+						}
+
+					} else if ( c.material.opacity < 1.0 ) {
+
+						toRemove.push( c );
+
+					}
+
+				}
+
+			} );
+
+			toRemove.forEach( c => c.parent.remove( c ) );
+
+		}
+	},
 };
 
 const envMaps = {
