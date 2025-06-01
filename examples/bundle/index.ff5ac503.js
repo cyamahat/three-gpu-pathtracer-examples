@@ -159,7 +159,7 @@ var _loaderElementJs = require("./utils/LoaderElement.js");
 var _parallelMeshBVHWorkerJs = require("three-mesh-bvh/src/workers/ParallelMeshBVHWorker.js");
 const MODEL_LIST = {
     "Panoramic Telescope": {
-        url: "../models/panoramic_telescope.glb",
+        url: "./models/panoramic_telescope.glb",
         credit: "Panoramic Telescope (Rundblickfernrohr)",
         opacityToTransmission: true,
         camera_X: 1.909,
@@ -194,7 +194,7 @@ const MODEL_LIST = {
         }
     },
     "Dove Prism": {
-        url: "../models/octopus_vs_dove_prism.glb",
+        url: "./models/octopus_vs_dove_prism.glb",
         credit: "Dove prism + Octopus (https://skfb.ly/oqIRG)",
         opacityToTransmission: true,
         camera_X: -0.1,
@@ -229,7 +229,7 @@ const MODEL_LIST = {
         }
     },
     "Right-Angle Prism": {
-        url: "../models/octopus_vs_right-angle_prism.glb",
+        url: "./models/octopus_vs_right-angle_prism.glb",
         credit: "Right-angle prism + Octopus (https://skfb.ly/oqIRG)",
         opacityToTransmission: true,
         camera_X: 0,
@@ -264,7 +264,7 @@ const MODEL_LIST = {
         }
     },
     "Amici Roof Prism": {
-        url: "../models/octopus_vs_amici_prism.glb",
+        url: "./models/octopus_vs_amici_prism.glb",
         credit: "Amici roof prism + Octopus (https://skfb.ly/oqIRG)",
         opacityToTransmission: true,
         camera_X: 0,
@@ -297,11 +297,46 @@ const MODEL_LIST = {
             });
             toRemove.forEach((c)=>c.parent.remove(c));
         }
+    },
+    "K-Mirror": {
+        url: "./models/K-Mirror.glb",
+        credit: "K-Mirror",
+        opacityToTransmission: true,
+        camera_X: 3,
+        camera_Y: 0.25,
+        camera_Z: 0,
+        camera_thetaX: 90,
+        camera_thetaY: 90,
+        camera_thetaZ: -90,
+        scaleFactor: 0.01,
+        frames: 360,
+        postProcess (model) {
+            const toRemove = [];
+            model.updateMatrixWorld();
+            model.traverse((c)=>{
+                if (c.material) {
+                    c.material.emissiveIntensity = 0;
+                    if (c.material instanceof _three.MeshPhysicalMaterial) {
+                        const material = c.material;
+                        material.metalness = 1;
+                        if (material.transmission === 1.0) {
+                            material.roughness = 0.0;
+                            material.metalness = 0.0;
+                            if (c.name.includes("29")) {
+                                material.ior = 1.52;
+                                material.color.set(0xffffff);
+                            } else material.ior = 1.52;
+                        }
+                    } else if (c.material.opacity < 1.0) toRemove.push(c);
+                }
+            });
+            toRemove.forEach((c)=>c.parent.remove(c));
+        }
     }
 };
 const envMaps = {
-    "Aristea Wreck Puresky": "../models/env/aristea_wreck_puresky_2k.hdr",
-    "Peppermint Powerplant": "../models/env/peppermint_powerplant_2k.hdr"
+    "Aristea Wreck Puresky": "./models/env/aristea_wreck_puresky_2k.hdr",
+    "Peppermint Powerplant": "./models/env/peppermint_powerplant_2k.hdr"
 };
 const models = MODEL_LIST;
 const urlParams = new URLSearchParams(window.location.search);
