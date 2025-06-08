@@ -1,7 +1,5 @@
 # PBR of Optical Elements with *three-gpu-pathtracer*
 
-[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/cyamahat/three-gpu-pathtracer-optics)
-
 The *[three-gpu-pathtracer](https://github.com/gkjohnson/three-gpu-pathtracer)* library
 leverages [three-mesh-bvh](https://github.com/gkjohnson/three-mesh-bvh) and WebGL 2 to deliver high-quality, 
 physically based rendering (PBR) on the GPU. Key features include support for the GGX surface model, materials information, textures, normal maps, emission, environment maps, tiled rendering. As a result, path tracing also supports reflection and refraction of optical materials!
@@ -50,6 +48,11 @@ Additionally, an example featuring a [K-Mirror](https://en.wikipedia.org/wiki/K-
 [Three.js](https://threejs.org) • JavaScript 3D Library use to display animated 3D computer graphics in modern web browsers using [WebGL](https://en.wikipedia.org/wiki/WebGL). 
 
 🎬 [Panoramic telescope](https://youtu.be/fu5VCT6Hh1A?si=yMeeUyAWUAuUQ-1i) • A 3-minute YouTube video providing an overview of the history and working principle of the panoramic telescope (Rundblickfernrohr).
+
+## Getting Started
+To explore or test this project in your browser, open it in CodeSandbox:
+
+[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/cyamahat/three-gpu-pathtracer-optics)
 
 <br/>
 
