@@ -13,7 +13,7 @@ import { ParallelMeshBVHWorker } from 'three-mesh-bvh/src/workers/ParallelMeshBV
 
 const MODEL_LIST = {
 	'Panoramic Telescope': {
-		url: './models/panoramic_telescope.glb',
+		url: 'https://raw.githubusercontent.com/cyamahat/three-gpu-pathtracer-optics/main/examples/models/panoramic_telescope.glb',
 
 		credit: 'Panoramic Telescope (Rundblickfernrohr)',
 		opacityToTransmission: true,
@@ -71,7 +71,7 @@ const MODEL_LIST = {
 		}
 	},
 	'Dove Prism': {
-		url: './models/octopus_vs_dove_prism.glb',
+		url: 'https://raw.githubusercontent.com/cyamahat/three-gpu-pathtracer-optics/main/examples/models/octopus_vs_dove_prism.glb',
 
 		credit: 'Dove prism + Octopus (https://skfb.ly/oqIRG)',
 		opacityToTransmission: true,
@@ -129,7 +129,7 @@ const MODEL_LIST = {
 		}
 	},
 	'Right-Angle Prism': {
-		url: './models/octopus_vs_right-angle_prism.glb',
+		url: 'https://raw.githubusercontent.com/cyamahat/three-gpu-pathtracer-optics/main/examples/models/octopus_vs_right-angle_prism.glb',
 
 		credit: 'Right-angle prism + Octopus (https://skfb.ly/oqIRG)',
 		opacityToTransmission: true,
@@ -187,7 +187,7 @@ const MODEL_LIST = {
 		}
 	},
 	'Amici Roof Prism': {
-		url: './models/octopus_vs_amici_prism.glb',
+		url: 'https://raw.githubusercontent.com/cyamahat/three-gpu-pathtracer-optics/main/examples/models/octopus_vs_amici_prism.glb',
 
 		credit: 'Amici roof prism + Octopus (https://skfb.ly/oqIRG)',
 		opacityToTransmission: true,
@@ -245,7 +245,7 @@ const MODEL_LIST = {
 		}
 	},
 	'K-Mirror': {
-		url: './models/K-Mirror.glb',
+		url: 'https://raw.githubusercontent.com/cyamahat/three-gpu-pathtracer-optics/main/examples/models/K-Mirror.glb',
 		
 		credit: 'K-Mirror',
 		opacityToTransmission: true,
@@ -305,8 +305,8 @@ const MODEL_LIST = {
 };
 
 const envMaps = {
-	'Aristea Wreck Puresky': './models/env/aristea_wreck_puresky_2k.hdr',
-	'Peppermint Powerplant': './models/env/peppermint_powerplant_2k.hdr',
+	'Aristea Wreck Puresky': 'https://raw.githubusercontent.com/cyamahat/three-gpu-pathtracer-optics/main/examples/models/env/aristea_wreck_puresky_2k.hdr',
+	'Peppermint Powerplant': 'https://raw.githubusercontent.com/cyamahat/three-gpu-pathtracer-optics/main/examples/models/env/peppermint_powerplant_2k.hdr',
 };
 
 const models = MODEL_LIST;
