@@ -26,7 +26,7 @@ Additionally, an example featuring a [K-Mirror](https://en.wikipedia.org/wiki/K-
 ### PBR Illustrations
 
 [![Dove Prism](https://raw.githubusercontent.com/cyamahat/three-gpu-pathtracer-optics/main/illustrations/PBR_Dove_prism_rotation.png)](https://cyamahat.github.io/three-gpu-pathtracer-optics/examples/bundle/index.html#Dove%20Prism)
-***PBR of the Dove prism***. *The original GLB file is animated (rotation of the Dove prism).*
+<br/>***PBR of the Dove prism***. *The original GLB file is animated (rotation of the Dove prism).*
 <br/>*3D model: [Cartoon octopus takes a tea bath](https://skfb.ly/oqIRG) by [AzTiZ](https://sketchfab.com/aztiz)* 
 <br/>
 <br/>
@@ -36,7 +36,7 @@ Additionally, an example featuring a [K-Mirror](https://en.wikipedia.org/wiki/K-
 <br/>
 <br/>
 [![Panoramic Telescope](https://raw.githubusercontent.com/cyamahat/three-gpu-pathtracer-optics/main/illustrations/PBR_panoramic_telescope.png)](https://cyamahat.github.io/three-gpu-pathtracer-optics/examples/bundle/index.html)
-***Panoramic Telescope***. *When the right-angle prism undergoes azimuth rotation by an angle theta (θ),*
+<br/>***Panoramic Telescope***. *When the right-angle prism undergoes azimuth rotation by an angle theta (θ),*
 <br/>*rotating the Dove prism by half theta (θ/2) ensures the output image remains horizontal.*
 
 ---
