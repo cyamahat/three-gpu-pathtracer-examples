@@ -49,8 +49,7 @@ Additionally, an example featuring a [K-Mirror](https://en.wikipedia.org/wiki/K-
 
 🎬 [Panoramic telescope](https://youtu.be/fu5VCT6Hh1A?si=yMeeUyAWUAuUQ-1i) • A 3-minute YouTube video providing an overview of the history and working principle of the panoramic telescope (Rundblickfernrohr).
 
-[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/cyamahat/three-gpu-pathtracer-optics) &rArr; To explore or test this project in your browser, open it in CodeSandbox
-
+[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/cyamahat/three-gpu-pathtracer-optics) &rArr; To explore or test this project in your browser, open it in CodeSandbox.
 
 <br/>
 
