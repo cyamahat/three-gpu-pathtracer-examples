@@ -57,10 +57,9 @@
     "three-mesh-bvh": ">=0.7.4",
     "xatlas-web": "^0.1.0"
   },
-  },
   "scripts": {
     "start": "cd examples && npm run copy-assets && parcel serve ./*.html --dist-dir ./dev-bundle/ --no-cache --no-hmr",
-    "copy-assets": "cd examples && pwd && ls -la && mkdir -p dev-bundle/models && cp -r models/* dev-bundle/models/ && ls -la dev-bundle/models/ || echo 'Copy failed'",
+    "copy-assets": "cd examples && pwd && ls -la && if [ -d models ]; then mkdir -p dev-bundle/models && cp -r models/* dev-bundle/models/ && ls -la dev-bundle/models/ || echo 'Copy failed'; else echo 'Error: /examples/models does not exist'; exit 1; fi",
     "build-examples": "cd examples && parcel build ./*.html --dist-dir ./bundle/ --public-url . --no-cache --no-content-hash",
     "update-screenshots": "node ./scripts/push-screenshots.js",
     "screenshot-diff": "node ./scripts/regression-test.js",
