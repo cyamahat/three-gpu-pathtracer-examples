@@ -1,5 +1,0 @@
-{
-	"scripts": {
-  "start": "cd examples && http-server -p 1234"
-}
-}
